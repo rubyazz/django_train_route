@@ -1,1 +1,1 @@
-default_app_config = 'cities.apps.CitiesConfig'
+default_app_config = 'trains.apps.CitiesConfig'
