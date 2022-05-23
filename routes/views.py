@@ -17,8 +17,8 @@ def find_routes(request):
                 context = get_routes(request, form)
             except ValueError as e:
                 messages.error(request, e)
-                render(request, 'routes/home.html', {'form': form})
-            render(request, 'routes/home.html', context)
+                return  render(request, 'routes/home.html', {'form': form})
+            return render(request, 'routes/home.html', context)
         return render(request, 'routes/home.html', {'form': form})
     else:
         form = RouteForm()
