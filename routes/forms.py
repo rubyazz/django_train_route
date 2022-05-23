@@ -10,7 +10,7 @@ class RouteForm(forms.Form):
     )
     to_city = forms.ModelChoiceField(
         label='Куда', queryset=City.objects.all(), widget=forms.Select(
-            attrs={'class': 'form-control js-example-basic-single'}
+            attrs={'class': 'form-control js-example-basic-single'} 
         )
     )
     cities = forms.ModelMultipleChoiceField(
