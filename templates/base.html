@@ -33,7 +33,7 @@
           </li>
           <li class="nav-item
            {% if request.path == route_list%} active {% endif %}">
-            <a class="nav-link" href="#">Маршруты</a>
+            <a class="nav-link" href="{% url 'list'%}">Маршруты</a>
           </li>
           {% if user.is_authenticated%}
           <li class="nav-item dropdown
@@ -58,14 +58,14 @@
             {% endif %}
           {% if user.is_authenticated%}
           <li class="nav-item ">
-            <a class="nav-link" href="#">Выйти</a>
+            <a class="nav-link" href="{% url 'accounts:logout'%}">Выйти</a>
           </li>
           {% else %}
           <li class="nav-item ">
-            <a class="nav-link" href="#">Войти</a>
+            <a class="nav-link" href="{% url 'accounts:login'%}">Войти</a>
           </li>
           <li class="nav-item ">
-            <a class="nav-link" href="#">Регистрация</a>
+            <a class="nav-link" href="{% url 'accounts:register'%}">Регистрация</a>
           </li>
           {% endif %}
 
