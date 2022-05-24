@@ -1867,3 +1867,1229 @@ DEBUG 2022-05-24 11:13:27,967 utils (0.000)
             WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
             ORDER BY name; args=None; alias=default
 DEBUG 2022-05-24 11:13:27,973 utils (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=(); alias=default
+DEBUG 2022-05-24 11:14:25,486 utils (0.000) SELECT COUNT(*) AS "__count" FROM "trains_train"; args=(); alias=default
+DEBUG 2022-05-24 11:14:25,609 utils (0.000) SELECT "trains_train"."id", "trains_train"."name", "trains_train"."travel_time", "trains_train"."from_city_id", "trains_train"."to_city_id" FROM "trains_train" ORDER BY "trains_train"."travel_time" ASC LIMIT 4; args=(); alias=default
+DEBUG 2022-05-24 11:14:25,611 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 13 LIMIT 21; args=(13,); alias=default
+DEBUG 2022-05-24 11:14:25,612 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 2 LIMIT 21; args=(2,); alias=default
+DEBUG 2022-05-24 11:14:25,613 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 17 LIMIT 21; args=(17,); alias=default
+DEBUG 2022-05-24 11:14:25,614 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 16 LIMIT 21; args=(16,); alias=default
+DEBUG 2022-05-24 11:14:25,614 utils (0.000) SELECT "trains_train"."id", "trains_train"."name", "trains_train"."travel_time", "trains_train"."from_city_id", "trains_train"."to_city_id" FROM "trains_train" ORDER BY "trains_train"."travel_time" ASC LIMIT 4; args=(); alias=default
+DEBUG 2022-05-24 11:14:25,616 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 13 LIMIT 21; args=(13,); alias=default
+DEBUG 2022-05-24 11:14:25,617 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 2 LIMIT 21; args=(2,); alias=default
+DEBUG 2022-05-24 11:14:25,617 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 17 LIMIT 21; args=(17,); alias=default
+DEBUG 2022-05-24 11:14:25,618 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 16 LIMIT 21; args=(16,); alias=default
+DEBUG 2022-05-24 11:14:25,619 utils (0.000) SELECT "trains_train"."id", "trains_train"."name", "trains_train"."travel_time", "trains_train"."from_city_id", "trains_train"."to_city_id" FROM "trains_train" ORDER BY "trains_train"."travel_time" ASC LIMIT 4; args=(); alias=default
+DEBUG 2022-05-24 11:14:25,620 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 13 LIMIT 21; args=(13,); alias=default
+DEBUG 2022-05-24 11:14:25,622 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 2 LIMIT 21; args=(2,); alias=default
+DEBUG 2022-05-24 11:14:25,625 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 17 LIMIT 21; args=(17,); alias=default
+DEBUG 2022-05-24 11:14:25,626 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 16 LIMIT 21; args=(16,); alias=default
+DEBUG 2022-05-24 11:14:25,627 utils (0.000) SELECT "trains_train"."id", "trains_train"."name", "trains_train"."travel_time", "trains_train"."from_city_id", "trains_train"."to_city_id" FROM "trains_train" ORDER BY "trains_train"."travel_time" ASC LIMIT 4; args=(); alias=default
+DEBUG 2022-05-24 11:14:25,628 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 13 LIMIT 21; args=(13,); alias=default
+DEBUG 2022-05-24 11:14:25,629 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 2 LIMIT 21; args=(2,); alias=default
+DEBUG 2022-05-24 11:14:25,630 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 17 LIMIT 21; args=(17,); alias=default
+DEBUG 2022-05-24 11:14:25,631 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 16 LIMIT 21; args=(16,); alias=default
+DEBUG 2022-05-24 11:14:25,632 utils (0.000) SELECT "trains_train"."id", "trains_train"."name", "trains_train"."travel_time", "trains_train"."from_city_id", "trains_train"."to_city_id" FROM "trains_train" ORDER BY "trains_train"."travel_time" ASC LIMIT 4; args=(); alias=default
+DEBUG 2022-05-24 11:14:25,633 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 13 LIMIT 21; args=(13,); alias=default
+DEBUG 2022-05-24 11:14:25,635 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 2 LIMIT 21; args=(2,); alias=default
+DEBUG 2022-05-24 11:14:25,636 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 17 LIMIT 21; args=(17,); alias=default
+DEBUG 2022-05-24 11:14:25,636 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 16 LIMIT 21; args=(16,); alias=default
+DEBUG 2022-05-24 11:14:25,637 utils (0.000) SELECT "trains_train"."id", "trains_train"."name", "trains_train"."travel_time", "trains_train"."from_city_id", "trains_train"."to_city_id" FROM "trains_train" ORDER BY "trains_train"."travel_time" ASC LIMIT 4; args=(); alias=default
+DEBUG 2022-05-24 11:14:25,642 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 13 LIMIT 21; args=(13,); alias=default
+DEBUG 2022-05-24 11:14:25,643 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 2 LIMIT 21; args=(2,); alias=default
+DEBUG 2022-05-24 11:14:25,644 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 17 LIMIT 21; args=(17,); alias=default
+DEBUG 2022-05-24 11:14:25,645 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 16 LIMIT 21; args=(16,); alias=default
+DEBUG 2022-05-24 11:14:25,646 utils (0.000) SELECT "trains_train"."id", "trains_train"."name", "trains_train"."travel_time", "trains_train"."from_city_id", "trains_train"."to_city_id" FROM "trains_train" ORDER BY "trains_train"."travel_time" ASC LIMIT 4; args=(); alias=default
+DEBUG 2022-05-24 11:14:25,647 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 13 LIMIT 21; args=(13,); alias=default
+DEBUG 2022-05-24 11:14:25,650 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 2 LIMIT 21; args=(2,); alias=default
+DEBUG 2022-05-24 11:14:25,651 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 17 LIMIT 21; args=(17,); alias=default
+DEBUG 2022-05-24 11:14:25,652 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 16 LIMIT 21; args=(16,); alias=default
+DEBUG 2022-05-24 11:14:25,652 utils (0.000) SELECT "trains_train"."id", "trains_train"."name", "trains_train"."travel_time", "trains_train"."from_city_id", "trains_train"."to_city_id" FROM "trains_train" ORDER BY "trains_train"."travel_time" ASC LIMIT 4; args=(); alias=default
+DEBUG 2022-05-24 11:14:25,654 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 13 LIMIT 21; args=(13,); alias=default
+DEBUG 2022-05-24 11:14:25,658 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 2 LIMIT 21; args=(2,); alias=default
+DEBUG 2022-05-24 11:14:25,660 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 17 LIMIT 21; args=(17,); alias=default
+DEBUG 2022-05-24 11:14:25,660 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 16 LIMIT 21; args=(16,); alias=default
+DEBUG 2022-05-24 11:14:25,661 utils (0.000) SELECT "trains_train"."id", "trains_train"."name", "trains_train"."travel_time", "trains_train"."from_city_id", "trains_train"."to_city_id" FROM "trains_train" ORDER BY "trains_train"."travel_time" ASC LIMIT 4; args=(); alias=default
+DEBUG 2022-05-24 11:14:25,662 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 13 LIMIT 21; args=(13,); alias=default
+DEBUG 2022-05-24 11:14:25,664 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 2 LIMIT 21; args=(2,); alias=default
+DEBUG 2022-05-24 11:14:25,665 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 17 LIMIT 21; args=(17,); alias=default
+DEBUG 2022-05-24 11:14:25,666 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 16 LIMIT 21; args=(16,); alias=default
+DEBUG 2022-05-24 11:14:25,666 utils (0.000) SELECT "trains_train"."id", "trains_train"."name", "trains_train"."travel_time", "trains_train"."from_city_id", "trains_train"."to_city_id" FROM "trains_train" ORDER BY "trains_train"."travel_time" ASC LIMIT 4; args=(); alias=default
+DEBUG 2022-05-24 11:14:25,667 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 13 LIMIT 21; args=(13,); alias=default
+DEBUG 2022-05-24 11:14:25,668 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 2 LIMIT 21; args=(2,); alias=default
+DEBUG 2022-05-24 11:14:25,669 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 17 LIMIT 21; args=(17,); alias=default
+DEBUG 2022-05-24 11:14:25,670 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 16 LIMIT 21; args=(16,); alias=default
+DEBUG 2022-05-24 11:14:25,670 utils (0.000) SELECT "trains_train"."id", "trains_train"."name", "trains_train"."travel_time", "trains_train"."from_city_id", "trains_train"."to_city_id" FROM "trains_train" ORDER BY "trains_train"."travel_time" ASC LIMIT 4; args=(); alias=default
+DEBUG 2022-05-24 11:14:25,677 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 13 LIMIT 21; args=(13,); alias=default
+DEBUG 2022-05-24 11:14:25,678 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 2 LIMIT 21; args=(2,); alias=default
+DEBUG 2022-05-24 11:14:25,681 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 17 LIMIT 21; args=(17,); alias=default
+DEBUG 2022-05-24 11:14:25,682 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 16 LIMIT 21; args=(16,); alias=default
+DEBUG 2022-05-24 11:14:25,683 utils (0.000) SELECT "trains_train"."id", "trains_train"."name", "trains_train"."travel_time", "trains_train"."from_city_id", "trains_train"."to_city_id" FROM "trains_train" ORDER BY "trains_train"."travel_time" ASC LIMIT 4; args=(); alias=default
+DEBUG 2022-05-24 11:14:25,684 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 13 LIMIT 21; args=(13,); alias=default
+DEBUG 2022-05-24 11:14:25,686 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 2 LIMIT 21; args=(2,); alias=default
+DEBUG 2022-05-24 11:14:25,693 utils (0.016) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 17 LIMIT 21; args=(17,); alias=default
+DEBUG 2022-05-24 11:14:25,694 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 16 LIMIT 21; args=(16,); alias=default
+DEBUG 2022-05-24 11:14:25,696 utils (0.000) SELECT "trains_train"."id", "trains_train"."name", "trains_train"."travel_time", "trains_train"."from_city_id", "trains_train"."to_city_id" FROM "trains_train" ORDER BY "trains_train"."travel_time" ASC LIMIT 4; args=(); alias=default
+DEBUG 2022-05-24 11:14:25,697 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 13 LIMIT 21; args=(13,); alias=default
+DEBUG 2022-05-24 11:14:25,698 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 2 LIMIT 21; args=(2,); alias=default
+DEBUG 2022-05-24 11:14:25,699 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 17 LIMIT 21; args=(17,); alias=default
+DEBUG 2022-05-24 11:14:25,700 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 16 LIMIT 21; args=(16,); alias=default
+DEBUG 2022-05-24 11:14:25,701 utils (0.000) SELECT "trains_train"."id", "trains_train"."name", "trains_train"."travel_time", "trains_train"."from_city_id", "trains_train"."to_city_id" FROM "trains_train" ORDER BY "trains_train"."travel_time" ASC LIMIT 4; args=(); alias=default
+DEBUG 2022-05-24 11:14:25,702 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 13 LIMIT 21; args=(13,); alias=default
+DEBUG 2022-05-24 11:14:25,707 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 2 LIMIT 21; args=(2,); alias=default
+DEBUG 2022-05-24 11:14:25,708 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 17 LIMIT 21; args=(17,); alias=default
+DEBUG 2022-05-24 11:14:25,709 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 16 LIMIT 21; args=(16,); alias=default
+DEBUG 2022-05-24 11:14:25,710 utils (0.000) SELECT "trains_train"."id", "trains_train"."name", "trains_train"."travel_time", "trains_train"."from_city_id", "trains_train"."to_city_id" FROM "trains_train" ORDER BY "trains_train"."travel_time" ASC LIMIT 4; args=(); alias=default
+DEBUG 2022-05-24 11:14:25,712 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 13 LIMIT 21; args=(13,); alias=default
+DEBUG 2022-05-24 11:14:25,713 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 2 LIMIT 21; args=(2,); alias=default
+DEBUG 2022-05-24 11:14:25,714 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 17 LIMIT 21; args=(17,); alias=default
+DEBUG 2022-05-24 11:14:25,715 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 16 LIMIT 21; args=(16,); alias=default
+DEBUG 2022-05-24 11:14:25,716 utils (0.000) SELECT "trains_train"."id", "trains_train"."name", "trains_train"."travel_time", "trains_train"."from_city_id", "trains_train"."to_city_id" FROM "trains_train" ORDER BY "trains_train"."travel_time" ASC LIMIT 4; args=(); alias=default
+DEBUG 2022-05-24 11:14:25,717 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 13 LIMIT 21; args=(13,); alias=default
+DEBUG 2022-05-24 11:14:25,718 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 2 LIMIT 21; args=(2,); alias=default
+DEBUG 2022-05-24 11:14:25,720 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 17 LIMIT 21; args=(17,); alias=default
+DEBUG 2022-05-24 11:14:25,726 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 16 LIMIT 21; args=(16,); alias=default
+DEBUG 2022-05-24 11:14:25,728 utils (0.000) SELECT "trains_train"."id", "trains_train"."name", "trains_train"."travel_time", "trains_train"."from_city_id", "trains_train"."to_city_id" FROM "trains_train" ORDER BY "trains_train"."travel_time" ASC LIMIT 4; args=(); alias=default
+DEBUG 2022-05-24 11:14:25,729 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 13 LIMIT 21; args=(13,); alias=default
+DEBUG 2022-05-24 11:14:25,730 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 2 LIMIT 21; args=(2,); alias=default
+DEBUG 2022-05-24 11:14:25,731 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 17 LIMIT 21; args=(17,); alias=default
+DEBUG 2022-05-24 11:14:25,732 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 16 LIMIT 21; args=(16,); alias=default
+DEBUG 2022-05-24 11:14:25,733 utils (0.000) SELECT "trains_train"."id", "trains_train"."name", "trains_train"."travel_time", "trains_train"."from_city_id", "trains_train"."to_city_id" FROM "trains_train" ORDER BY "trains_train"."travel_time" ASC LIMIT 4; args=(); alias=default
+DEBUG 2022-05-24 11:14:25,734 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 13 LIMIT 21; args=(13,); alias=default
+DEBUG 2022-05-24 11:14:25,736 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 2 LIMIT 21; args=(2,); alias=default
+DEBUG 2022-05-24 11:14:25,737 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 17 LIMIT 21; args=(17,); alias=default
+DEBUG 2022-05-24 11:14:25,741 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 16 LIMIT 21; args=(16,); alias=default
+DEBUG 2022-05-24 11:14:25,742 utils (0.000) SELECT "trains_train"."id", "trains_train"."name", "trains_train"."travel_time", "trains_train"."from_city_id", "trains_train"."to_city_id" FROM "trains_train" ORDER BY "trains_train"."travel_time" ASC LIMIT 4; args=(); alias=default
+DEBUG 2022-05-24 11:14:25,744 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 13 LIMIT 21; args=(13,); alias=default
+DEBUG 2022-05-24 11:14:25,745 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 2 LIMIT 21; args=(2,); alias=default
+DEBUG 2022-05-24 11:14:25,746 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 17 LIMIT 21; args=(17,); alias=default
+DEBUG 2022-05-24 11:14:25,747 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 16 LIMIT 21; args=(16,); alias=default
+DEBUG 2022-05-24 11:14:25,747 utils (0.000) SELECT "trains_train"."id", "trains_train"."name", "trains_train"."travel_time", "trains_train"."from_city_id", "trains_train"."to_city_id" FROM "trains_train" ORDER BY "trains_train"."travel_time" ASC LIMIT 4; args=(); alias=default
+DEBUG 2022-05-24 11:14:25,748 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 13 LIMIT 21; args=(13,); alias=default
+DEBUG 2022-05-24 11:14:25,749 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 2 LIMIT 21; args=(2,); alias=default
+DEBUG 2022-05-24 11:14:25,750 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 17 LIMIT 21; args=(17,); alias=default
+DEBUG 2022-05-24 11:14:25,751 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 16 LIMIT 21; args=(16,); alias=default
+DEBUG 2022-05-24 11:14:25,753 utils (0.000) SELECT "trains_train"."id", "trains_train"."name", "trains_train"."travel_time", "trains_train"."from_city_id", "trains_train"."to_city_id" FROM "trains_train" ORDER BY "trains_train"."travel_time" ASC LIMIT 4; args=(); alias=default
+DEBUG 2022-05-24 11:14:25,754 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 13 LIMIT 21; args=(13,); alias=default
+DEBUG 2022-05-24 11:14:25,757 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 2 LIMIT 21; args=(2,); alias=default
+DEBUG 2022-05-24 11:14:25,758 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 17 LIMIT 21; args=(17,); alias=default
+DEBUG 2022-05-24 11:14:25,760 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 16 LIMIT 21; args=(16,); alias=default
+DEBUG 2022-05-24 11:14:25,761 utils (0.000) SELECT "trains_train"."id", "trains_train"."name", "trains_train"."travel_time", "trains_train"."from_city_id", "trains_train"."to_city_id" FROM "trains_train" ORDER BY "trains_train"."travel_time" ASC LIMIT 4; args=(); alias=default
+DEBUG 2022-05-24 11:14:25,761 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 13 LIMIT 21; args=(13,); alias=default
+DEBUG 2022-05-24 11:14:25,762 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 2 LIMIT 21; args=(2,); alias=default
+DEBUG 2022-05-24 11:14:25,763 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 17 LIMIT 21; args=(17,); alias=default
+DEBUG 2022-05-24 11:14:25,764 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 16 LIMIT 21; args=(16,); alias=default
+DEBUG 2022-05-24 11:14:25,765 utils (0.016) SELECT "trains_train"."id", "trains_train"."name", "trains_train"."travel_time", "trains_train"."from_city_id", "trains_train"."to_city_id" FROM "trains_train" ORDER BY "trains_train"."travel_time" ASC LIMIT 4; args=(); alias=default
+DEBUG 2022-05-24 11:14:25,766 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 13 LIMIT 21; args=(13,); alias=default
+DEBUG 2022-05-24 11:14:25,767 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 2 LIMIT 21; args=(2,); alias=default
+DEBUG 2022-05-24 11:14:25,769 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 17 LIMIT 21; args=(17,); alias=default
+DEBUG 2022-05-24 11:14:25,770 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 16 LIMIT 21; args=(16,); alias=default
+DEBUG 2022-05-24 11:14:25,773 utils (0.000) SELECT "trains_train"."id", "trains_train"."name", "trains_train"."travel_time", "trains_train"."from_city_id", "trains_train"."to_city_id" FROM "trains_train" ORDER BY "trains_train"."travel_time" ASC LIMIT 4; args=(); alias=default
+DEBUG 2022-05-24 11:14:25,776 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 13 LIMIT 21; args=(13,); alias=default
+DEBUG 2022-05-24 11:14:25,778 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 2 LIMIT 21; args=(2,); alias=default
+DEBUG 2022-05-24 11:14:25,779 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 17 LIMIT 21; args=(17,); alias=default
+DEBUG 2022-05-24 11:14:25,779 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 16 LIMIT 21; args=(16,); alias=default
+DEBUG 2022-05-24 11:14:25,780 utils (0.000) SELECT "trains_train"."id", "trains_train"."name", "trains_train"."travel_time", "trains_train"."from_city_id", "trains_train"."to_city_id" FROM "trains_train" ORDER BY "trains_train"."travel_time" ASC LIMIT 4; args=(); alias=default
+DEBUG 2022-05-24 11:14:25,781 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 13 LIMIT 21; args=(13,); alias=default
+DEBUG 2022-05-24 11:14:25,782 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 2 LIMIT 21; args=(2,); alias=default
+DEBUG 2022-05-24 11:14:25,784 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 17 LIMIT 21; args=(17,); alias=default
+DEBUG 2022-05-24 11:14:25,785 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 16 LIMIT 21; args=(16,); alias=default
+DEBUG 2022-05-24 11:14:25,786 utils (0.000) SELECT "trains_train"."id", "trains_train"."name", "trains_train"."travel_time", "trains_train"."from_city_id", "trains_train"."to_city_id" FROM "trains_train" ORDER BY "trains_train"."travel_time" ASC LIMIT 4; args=(); alias=default
+DEBUG 2022-05-24 11:14:25,787 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 13 LIMIT 21; args=(13,); alias=default
+DEBUG 2022-05-24 11:14:25,790 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 2 LIMIT 21; args=(2,); alias=default
+DEBUG 2022-05-24 11:14:25,792 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 17 LIMIT 21; args=(17,); alias=default
+DEBUG 2022-05-24 11:14:25,793 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 16 LIMIT 21; args=(16,); alias=default
+DEBUG 2022-05-24 11:14:25,794 utils (0.000) SELECT "trains_train"."id", "trains_train"."name", "trains_train"."travel_time", "trains_train"."from_city_id", "trains_train"."to_city_id" FROM "trains_train" ORDER BY "trains_train"."travel_time" ASC LIMIT 4; args=(); alias=default
+DEBUG 2022-05-24 11:14:25,795 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 13 LIMIT 21; args=(13,); alias=default
+DEBUG 2022-05-24 11:14:25,796 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 2 LIMIT 21; args=(2,); alias=default
+DEBUG 2022-05-24 11:14:25,797 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 17 LIMIT 21; args=(17,); alias=default
+DEBUG 2022-05-24 11:14:25,797 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 16 LIMIT 21; args=(16,); alias=default
+DEBUG 2022-05-24 11:14:25,798 utils (0.000) SELECT "trains_train"."id", "trains_train"."name", "trains_train"."travel_time", "trains_train"."from_city_id", "trains_train"."to_city_id" FROM "trains_train" ORDER BY "trains_train"."travel_time" ASC LIMIT 4; args=(); alias=default
+DEBUG 2022-05-24 11:14:25,800 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 13 LIMIT 21; args=(13,); alias=default
+DEBUG 2022-05-24 11:14:25,801 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 2 LIMIT 21; args=(2,); alias=default
+DEBUG 2022-05-24 11:14:25,802 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 17 LIMIT 21; args=(17,); alias=default
+DEBUG 2022-05-24 11:14:25,802 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 16 LIMIT 21; args=(16,); alias=default
+DEBUG 2022-05-24 11:14:25,808 utils (0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2022-05-24 05:14:25.803845' AND "django_session"."session_key" = 'q0i5yl9m060rvxvswapxo5k8xraixgtf') LIMIT 21; args=('2022-05-24 05:14:25.803845', 'q0i5yl9m060rvxvswapxo5k8xraixgtf'); alias=default
+DEBUG 2022-05-24 11:14:25,809 utils (0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+ERROR 2022-05-24 11:14:25,884 log Internal Server Error: /trains/
+Traceback (most recent call last):
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\template\response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\template\backends\django.py", line 62, in render
+    return self.template.render(context)
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\template\base.py", line 958, in render_annotated
+    return self.render(context)
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\template\base.py", line 958, in render_annotated
+    return self.render(context)
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\template\defaulttags.py", line 472, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\urls\resolvers.py", line 802, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'list' not found. 'list' is not a valid view function or pattern name.
+DEBUG 2022-05-24 11:14:30,144 utils (0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2022-05-24 05:14:30.137183' AND "django_session"."session_key" = 'q0i5yl9m060rvxvswapxo5k8xraixgtf') LIMIT 21; args=('2022-05-24 05:14:30.137183', 'q0i5yl9m060rvxvswapxo5k8xraixgtf'); alias=default
+DEBUG 2022-05-24 11:14:30,146 utils (0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+ERROR 2022-05-24 11:14:30,218 log Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ersultan\PycharmProjects\src\routes\views.py", line 18, in home
+    return render(request, 'routes/home.html', {'form': form})
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\template\backends\django.py", line 62, in render
+    return self.template.render(context)
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\template\base.py", line 958, in render_annotated
+    return self.render(context)
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\template\base.py", line 958, in render_annotated
+    return self.render(context)
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\template\defaulttags.py", line 472, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\urls\resolvers.py", line 802, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'list' not found. 'list' is not a valid view function or pattern name.
+DEBUG 2022-05-24 11:15:05,760 utils (0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2022-05-24 05:15:05.757769' AND "django_session"."session_key" = 'q0i5yl9m060rvxvswapxo5k8xraixgtf') LIMIT 21; args=('2022-05-24 05:15:05.757769', 'q0i5yl9m060rvxvswapxo5k8xraixgtf'); alias=default
+DEBUG 2022-05-24 11:15:05,762 utils (0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+ERROR 2022-05-24 11:15:05,942 log Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ersultan\PycharmProjects\src\routes\views.py", line 18, in home
+    return render(request, 'routes/home.html', {'form': form})
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\template\backends\django.py", line 62, in render
+    return self.template.render(context)
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\template\base.py", line 958, in render_annotated
+    return self.render(context)
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\template\base.py", line 958, in render_annotated
+    return self.render(context)
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\template\defaulttags.py", line 472, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\urls\resolvers.py", line 802, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'list' not found. 'list' is not a valid view function or pattern name.
+DEBUG 2022-05-24 11:15:16,938 utils (0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None; alias=default
+DEBUG 2022-05-24 11:15:16,969 utils (0.031) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=(); alias=default
+DEBUG 2022-05-24 11:15:18,641 utils (0.016) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2022-05-24 05:15:18.637710' AND "django_session"."session_key" = 'q0i5yl9m060rvxvswapxo5k8xraixgtf') LIMIT 21; args=('2022-05-24 05:15:18.637710', 'q0i5yl9m060rvxvswapxo5k8xraixgtf'); alias=default
+DEBUG 2022-05-24 11:15:18,643 utils (0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+ERROR 2022-05-24 11:15:18,756 log Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ersultan\PycharmProjects\src\routes\views.py", line 18, in home
+    return render(request, 'routes/home.html', {'form': form})
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\template\backends\django.py", line 62, in render
+    return self.template.render(context)
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\template\base.py", line 958, in render_annotated
+    return self.render(context)
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\template\base.py", line 958, in render_annotated
+    return self.render(context)
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\template\defaulttags.py", line 472, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\urls\resolvers.py", line 802, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'list' not found. 'list' is not a valid view function or pattern name.
+WARNING 2022-05-24 11:15:27,624 log Not Found: /route/list
+DEBUG 2022-05-24 11:16:36,904 utils (0.000) SELECT COUNT(*) AS "__count" FROM "cities_city"; args=(); alias=default
+DEBUG 2022-05-24 11:16:36,941 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC LIMIT 2; args=(); alias=default
+DEBUG 2022-05-24 11:16:36,942 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC LIMIT 2; args=(); alias=default
+DEBUG 2022-05-24 11:16:36,943 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC LIMIT 2; args=(); alias=default
+DEBUG 2022-05-24 11:16:36,943 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC LIMIT 2; args=(); alias=default
+DEBUG 2022-05-24 11:16:36,944 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC LIMIT 2; args=(); alias=default
+DEBUG 2022-05-24 11:16:36,945 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC LIMIT 2; args=(); alias=default
+DEBUG 2022-05-24 11:16:36,948 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC LIMIT 2; args=(); alias=default
+DEBUG 2022-05-24 11:16:36,949 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC LIMIT 2; args=(); alias=default
+DEBUG 2022-05-24 11:16:36,950 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC LIMIT 2; args=(); alias=default
+DEBUG 2022-05-24 11:16:36,951 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC LIMIT 2; args=(); alias=default
+DEBUG 2022-05-24 11:16:36,951 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC LIMIT 2; args=(); alias=default
+DEBUG 2022-05-24 11:16:36,952 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC LIMIT 2; args=(); alias=default
+DEBUG 2022-05-24 11:16:36,953 utils (0.015) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC LIMIT 2; args=(); alias=default
+DEBUG 2022-05-24 11:16:36,953 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC LIMIT 2; args=(); alias=default
+DEBUG 2022-05-24 11:16:36,954 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC LIMIT 2; args=(); alias=default
+DEBUG 2022-05-24 11:16:36,955 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC LIMIT 2; args=(); alias=default
+DEBUG 2022-05-24 11:16:36,955 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC LIMIT 2; args=(); alias=default
+DEBUG 2022-05-24 11:16:36,956 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC LIMIT 2; args=(); alias=default
+DEBUG 2022-05-24 11:16:36,957 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC LIMIT 2; args=(); alias=default
+DEBUG 2022-05-24 11:16:36,958 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC LIMIT 2; args=(); alias=default
+DEBUG 2022-05-24 11:16:36,959 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC LIMIT 2; args=(); alias=default
+DEBUG 2022-05-24 11:16:36,959 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC LIMIT 2; args=(); alias=default
+DEBUG 2022-05-24 11:16:36,960 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC LIMIT 2; args=(); alias=default
+DEBUG 2022-05-24 11:16:36,960 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC LIMIT 2; args=(); alias=default
+DEBUG 2022-05-24 11:16:36,961 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC LIMIT 2; args=(); alias=default
+DEBUG 2022-05-24 11:16:36,963 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC LIMIT 2; args=(); alias=default
+DEBUG 2022-05-24 11:16:36,965 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC LIMIT 2; args=(); alias=default
+DEBUG 2022-05-24 11:16:36,966 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC LIMIT 2; args=(); alias=default
+DEBUG 2022-05-24 11:16:36,968 utils (0.016) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2022-05-24 05:16:36.967475' AND "django_session"."session_key" = 'q0i5yl9m060rvxvswapxo5k8xraixgtf') LIMIT 21; args=('2022-05-24 05:16:36.967475', 'q0i5yl9m060rvxvswapxo5k8xraixgtf'); alias=default
+DEBUG 2022-05-24 11:16:36,969 utils (0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+ERROR 2022-05-24 11:16:37,031 log Internal Server Error: /cities/
+Traceback (most recent call last):
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\template\response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\template\backends\django.py", line 62, in render
+    return self.template.render(context)
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\template\base.py", line 958, in render_annotated
+    return self.render(context)
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\template\base.py", line 958, in render_annotated
+    return self.render(context)
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\template\defaulttags.py", line 472, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\urls\resolvers.py", line 802, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'list' not found. 'list' is not a valid view function or pattern name.
+DEBUG 2022-05-24 11:17:17,517 utils (0.000) SELECT COUNT(*) AS "__count" FROM "cities_city"; args=(); alias=default
+DEBUG 2022-05-24 11:17:17,549 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC LIMIT 2; args=(); alias=default
+DEBUG 2022-05-24 11:17:17,550 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC LIMIT 2; args=(); alias=default
+DEBUG 2022-05-24 11:17:17,551 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC LIMIT 2; args=(); alias=default
+DEBUG 2022-05-24 11:17:17,551 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC LIMIT 2; args=(); alias=default
+DEBUG 2022-05-24 11:17:17,552 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC LIMIT 2; args=(); alias=default
+DEBUG 2022-05-24 11:17:17,552 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC LIMIT 2; args=(); alias=default
+DEBUG 2022-05-24 11:17:17,553 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC LIMIT 2; args=(); alias=default
+DEBUG 2022-05-24 11:17:17,554 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC LIMIT 2; args=(); alias=default
+DEBUG 2022-05-24 11:17:17,555 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC LIMIT 2; args=(); alias=default
+DEBUG 2022-05-24 11:17:17,555 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC LIMIT 2; args=(); alias=default
+DEBUG 2022-05-24 11:17:17,556 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC LIMIT 2; args=(); alias=default
+DEBUG 2022-05-24 11:17:17,556 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC LIMIT 2; args=(); alias=default
+DEBUG 2022-05-24 11:17:17,557 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC LIMIT 2; args=(); alias=default
+DEBUG 2022-05-24 11:17:17,558 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC LIMIT 2; args=(); alias=default
+DEBUG 2022-05-24 11:17:17,558 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC LIMIT 2; args=(); alias=default
+DEBUG 2022-05-24 11:17:17,559 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC LIMIT 2; args=(); alias=default
+DEBUG 2022-05-24 11:17:17,560 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC LIMIT 2; args=(); alias=default
+DEBUG 2022-05-24 11:17:17,560 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC LIMIT 2; args=(); alias=default
+DEBUG 2022-05-24 11:17:17,561 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC LIMIT 2; args=(); alias=default
+DEBUG 2022-05-24 11:17:17,562 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC LIMIT 2; args=(); alias=default
+DEBUG 2022-05-24 11:17:17,563 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC LIMIT 2; args=(); alias=default
+DEBUG 2022-05-24 11:17:17,563 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC LIMIT 2; args=(); alias=default
+DEBUG 2022-05-24 11:17:17,565 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC LIMIT 2; args=(); alias=default
+DEBUG 2022-05-24 11:17:17,565 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC LIMIT 2; args=(); alias=default
+DEBUG 2022-05-24 11:17:17,566 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC LIMIT 2; args=(); alias=default
+DEBUG 2022-05-24 11:17:17,567 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC LIMIT 2; args=(); alias=default
+DEBUG 2022-05-24 11:17:17,568 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC LIMIT 2; args=(); alias=default
+DEBUG 2022-05-24 11:17:17,568 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC LIMIT 2; args=(); alias=default
+DEBUG 2022-05-24 11:17:17,570 utils (0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2022-05-24 05:17:17.569430' AND "django_session"."session_key" = 'q0i5yl9m060rvxvswapxo5k8xraixgtf') LIMIT 21; args=('2022-05-24 05:17:17.569430', 'q0i5yl9m060rvxvswapxo5k8xraixgtf'); alias=default
+DEBUG 2022-05-24 11:17:17,571 utils (0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+ERROR 2022-05-24 11:17:17,617 log Internal Server Error: /cities/
+Traceback (most recent call last):
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\template\response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\template\backends\django.py", line 62, in render
+    return self.template.render(context)
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\template\base.py", line 958, in render_annotated
+    return self.render(context)
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\template\base.py", line 958, in render_annotated
+    return self.render(context)
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\template\defaulttags.py", line 472, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\urls\resolvers.py", line 802, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'route_list' not found. 'route_list' is not a valid view function or pattern name.
+DEBUG 2022-05-24 11:17:18,595 utils (0.000) SELECT COUNT(*) AS "__count" FROM "cities_city"; args=(); alias=default
+DEBUG 2022-05-24 11:17:18,641 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC LIMIT 2; args=(); alias=default
+DEBUG 2022-05-24 11:17:18,643 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC LIMIT 2; args=(); alias=default
+DEBUG 2022-05-24 11:17:18,645 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC LIMIT 2; args=(); alias=default
+DEBUG 2022-05-24 11:17:18,646 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC LIMIT 2; args=(); alias=default
+DEBUG 2022-05-24 11:17:18,649 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC LIMIT 2; args=(); alias=default
+DEBUG 2022-05-24 11:17:18,650 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC LIMIT 2; args=(); alias=default
+DEBUG 2022-05-24 11:17:18,652 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC LIMIT 2; args=(); alias=default
+DEBUG 2022-05-24 11:17:18,653 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC LIMIT 2; args=(); alias=default
+DEBUG 2022-05-24 11:17:18,654 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC LIMIT 2; args=(); alias=default
+DEBUG 2022-05-24 11:17:18,656 utils (0.015) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC LIMIT 2; args=(); alias=default
+DEBUG 2022-05-24 11:17:18,657 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC LIMIT 2; args=(); alias=default
+DEBUG 2022-05-24 11:17:18,658 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC LIMIT 2; args=(); alias=default
+DEBUG 2022-05-24 11:17:18,659 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC LIMIT 2; args=(); alias=default
+DEBUG 2022-05-24 11:17:18,661 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC LIMIT 2; args=(); alias=default
+DEBUG 2022-05-24 11:17:18,662 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC LIMIT 2; args=(); alias=default
+DEBUG 2022-05-24 11:17:18,663 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC LIMIT 2; args=(); alias=default
+DEBUG 2022-05-24 11:17:18,665 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC LIMIT 2; args=(); alias=default
+DEBUG 2022-05-24 11:17:18,666 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC LIMIT 2; args=(); alias=default
+DEBUG 2022-05-24 11:17:18,668 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC LIMIT 2; args=(); alias=default
+DEBUG 2022-05-24 11:17:18,669 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC LIMIT 2; args=(); alias=default
+DEBUG 2022-05-24 11:17:18,671 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC LIMIT 2; args=(); alias=default
+DEBUG 2022-05-24 11:17:18,672 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC LIMIT 2; args=(); alias=default
+DEBUG 2022-05-24 11:17:18,674 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC LIMIT 2; args=(); alias=default
+DEBUG 2022-05-24 11:17:18,675 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC LIMIT 2; args=(); alias=default
+DEBUG 2022-05-24 11:17:18,676 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC LIMIT 2; args=(); alias=default
+DEBUG 2022-05-24 11:17:18,677 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC LIMIT 2; args=(); alias=default
+DEBUG 2022-05-24 11:17:18,679 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC LIMIT 2; args=(); alias=default
+DEBUG 2022-05-24 11:17:18,680 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC LIMIT 2; args=(); alias=default
+DEBUG 2022-05-24 11:17:18,685 utils (0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2022-05-24 05:17:18.683513' AND "django_session"."session_key" = 'q0i5yl9m060rvxvswapxo5k8xraixgtf') LIMIT 21; args=('2022-05-24 05:17:18.683513', 'q0i5yl9m060rvxvswapxo5k8xraixgtf'); alias=default
+DEBUG 2022-05-24 11:17:18,688 utils (0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+ERROR 2022-05-24 11:17:18,777 log Internal Server Error: /cities/
+Traceback (most recent call last):
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\template\response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\template\backends\django.py", line 62, in render
+    return self.template.render(context)
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\template\base.py", line 958, in render_annotated
+    return self.render(context)
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\template\base.py", line 958, in render_annotated
+    return self.render(context)
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\template\defaulttags.py", line 472, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\urls\resolvers.py", line 802, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'route_list' not found. 'route_list' is not a valid view function or pattern name.
+DEBUG 2022-05-24 11:17:19,010 utils (0.000) SELECT COUNT(*) AS "__count" FROM "cities_city"; args=(); alias=default
+DEBUG 2022-05-24 11:17:19,037 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC LIMIT 2; args=(); alias=default
+DEBUG 2022-05-24 11:17:19,038 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC LIMIT 2; args=(); alias=default
+DEBUG 2022-05-24 11:17:19,039 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC LIMIT 2; args=(); alias=default
+DEBUG 2022-05-24 11:17:19,039 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC LIMIT 2; args=(); alias=default
+DEBUG 2022-05-24 11:17:19,040 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC LIMIT 2; args=(); alias=default
+DEBUG 2022-05-24 11:17:19,041 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC LIMIT 2; args=(); alias=default
+DEBUG 2022-05-24 11:17:19,042 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC LIMIT 2; args=(); alias=default
+DEBUG 2022-05-24 11:17:19,044 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC LIMIT 2; args=(); alias=default
+DEBUG 2022-05-24 11:17:19,045 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC LIMIT 2; args=(); alias=default
+DEBUG 2022-05-24 11:17:19,046 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC LIMIT 2; args=(); alias=default
+DEBUG 2022-05-24 11:17:19,047 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC LIMIT 2; args=(); alias=default
+DEBUG 2022-05-24 11:17:19,049 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC LIMIT 2; args=(); alias=default
+DEBUG 2022-05-24 11:17:19,051 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC LIMIT 2; args=(); alias=default
+DEBUG 2022-05-24 11:17:19,052 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC LIMIT 2; args=(); alias=default
+DEBUG 2022-05-24 11:17:19,053 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC LIMIT 2; args=(); alias=default
+DEBUG 2022-05-24 11:17:19,054 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC LIMIT 2; args=(); alias=default
+DEBUG 2022-05-24 11:17:19,055 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC LIMIT 2; args=(); alias=default
+DEBUG 2022-05-24 11:17:19,056 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC LIMIT 2; args=(); alias=default
+DEBUG 2022-05-24 11:17:19,057 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC LIMIT 2; args=(); alias=default
+DEBUG 2022-05-24 11:17:19,058 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC LIMIT 2; args=(); alias=default
+DEBUG 2022-05-24 11:17:19,059 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC LIMIT 2; args=(); alias=default
+DEBUG 2022-05-24 11:17:19,060 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC LIMIT 2; args=(); alias=default
+DEBUG 2022-05-24 11:17:19,061 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC LIMIT 2; args=(); alias=default
+DEBUG 2022-05-24 11:17:19,062 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC LIMIT 2; args=(); alias=default
+DEBUG 2022-05-24 11:17:19,063 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC LIMIT 2; args=(); alias=default
+DEBUG 2022-05-24 11:17:19,064 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC LIMIT 2; args=(); alias=default
+DEBUG 2022-05-24 11:17:19,066 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC LIMIT 2; args=(); alias=default
+DEBUG 2022-05-24 11:17:19,067 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC LIMIT 2; args=(); alias=default
+DEBUG 2022-05-24 11:17:19,069 utils (0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2022-05-24 05:17:19.068540' AND "django_session"."session_key" = 'q0i5yl9m060rvxvswapxo5k8xraixgtf') LIMIT 21; args=('2022-05-24 05:17:19.068540', 'q0i5yl9m060rvxvswapxo5k8xraixgtf'); alias=default
+DEBUG 2022-05-24 11:17:19,070 utils (0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+ERROR 2022-05-24 11:17:19,120 log Internal Server Error: /cities/
+Traceback (most recent call last):
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\template\response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\template\backends\django.py", line 62, in render
+    return self.template.render(context)
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\template\base.py", line 958, in render_annotated
+    return self.render(context)
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\template\base.py", line 958, in render_annotated
+    return self.render(context)
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\template\defaulttags.py", line 472, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\urls\resolvers.py", line 802, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'route_list' not found. 'route_list' is not a valid view function or pattern name.
+DEBUG 2022-05-24 11:17:23,569 utils (0.000) SELECT COUNT(*) AS "__count" FROM "cities_city"; args=(); alias=default
+DEBUG 2022-05-24 11:17:23,592 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC LIMIT 2; args=(); alias=default
+DEBUG 2022-05-24 11:17:23,592 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC LIMIT 2; args=(); alias=default
+DEBUG 2022-05-24 11:17:23,593 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC LIMIT 2; args=(); alias=default
+DEBUG 2022-05-24 11:17:23,594 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC LIMIT 2; args=(); alias=default
+DEBUG 2022-05-24 11:17:23,595 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC LIMIT 2; args=(); alias=default
+DEBUG 2022-05-24 11:17:23,596 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC LIMIT 2; args=(); alias=default
+DEBUG 2022-05-24 11:17:23,597 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC LIMIT 2; args=(); alias=default
+DEBUG 2022-05-24 11:17:23,600 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC LIMIT 2; args=(); alias=default
+DEBUG 2022-05-24 11:17:23,601 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC LIMIT 2; args=(); alias=default
+DEBUG 2022-05-24 11:17:23,602 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC LIMIT 2; args=(); alias=default
+DEBUG 2022-05-24 11:17:23,603 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC LIMIT 2; args=(); alias=default
+DEBUG 2022-05-24 11:17:23,604 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC LIMIT 2; args=(); alias=default
+DEBUG 2022-05-24 11:17:23,605 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC LIMIT 2; args=(); alias=default
+DEBUG 2022-05-24 11:17:23,606 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC LIMIT 2; args=(); alias=default
+DEBUG 2022-05-24 11:17:23,607 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC LIMIT 2; args=(); alias=default
+DEBUG 2022-05-24 11:17:23,607 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC LIMIT 2; args=(); alias=default
+DEBUG 2022-05-24 11:17:23,608 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC LIMIT 2; args=(); alias=default
+DEBUG 2022-05-24 11:17:23,609 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC LIMIT 2; args=(); alias=default
+DEBUG 2022-05-24 11:17:23,610 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC LIMIT 2; args=(); alias=default
+DEBUG 2022-05-24 11:17:23,611 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC LIMIT 2; args=(); alias=default
+DEBUG 2022-05-24 11:17:23,612 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC LIMIT 2; args=(); alias=default
+DEBUG 2022-05-24 11:17:23,613 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC LIMIT 2; args=(); alias=default
+DEBUG 2022-05-24 11:17:23,615 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC LIMIT 2; args=(); alias=default
+DEBUG 2022-05-24 11:17:23,616 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC LIMIT 2; args=(); alias=default
+DEBUG 2022-05-24 11:17:23,617 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC LIMIT 2; args=(); alias=default
+DEBUG 2022-05-24 11:17:23,618 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC LIMIT 2; args=(); alias=default
+DEBUG 2022-05-24 11:17:23,621 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC LIMIT 2; args=(); alias=default
+DEBUG 2022-05-24 11:17:23,622 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC LIMIT 2; args=(); alias=default
+DEBUG 2022-05-24 11:17:23,623 utils (0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2022-05-24 05:17:23.622874' AND "django_session"."session_key" = 'q0i5yl9m060rvxvswapxo5k8xraixgtf') LIMIT 21; args=('2022-05-24 05:17:23.622874', 'q0i5yl9m060rvxvswapxo5k8xraixgtf'); alias=default
+DEBUG 2022-05-24 11:17:23,625 utils (0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+ERROR 2022-05-24 11:17:23,717 log Internal Server Error: /cities/
+Traceback (most recent call last):
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\template\response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\template\backends\django.py", line 62, in render
+    return self.template.render(context)
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\template\base.py", line 958, in render_annotated
+    return self.render(context)
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\template\base.py", line 958, in render_annotated
+    return self.render(context)
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\template\defaulttags.py", line 472, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\urls\resolvers.py", line 802, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'list' not found. 'list' is not a valid view function or pattern name.
+DEBUG 2022-05-24 11:18:07,270 utils (0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None; alias=default
+DEBUG 2022-05-24 11:18:07,276 utils (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=(); alias=default
+DEBUG 2022-05-24 11:18:07,333 utils (0.000) SELECT COUNT(*) AS "__count" FROM "cities_city"; args=(); alias=default
+DEBUG 2022-05-24 11:18:07,365 utils (0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2022-05-24 05:18:07.363073' AND "django_session"."session_key" = 'q0i5yl9m060rvxvswapxo5k8xraixgtf') LIMIT 21; args=('2022-05-24 05:18:07.363073', 'q0i5yl9m060rvxvswapxo5k8xraixgtf'); alias=default
+DEBUG 2022-05-24 11:18:07,369 utils (0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+DEBUG 2022-05-24 11:18:07,398 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC LIMIT 2; args=(); alias=default
+DEBUG 2022-05-24 11:18:07,399 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC LIMIT 2; args=(); alias=default
+DEBUG 2022-05-24 11:18:07,400 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC LIMIT 2; args=(); alias=default
+DEBUG 2022-05-24 11:18:07,404 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC LIMIT 2; args=(); alias=default
+DEBUG 2022-05-24 11:18:07,405 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC LIMIT 2; args=(); alias=default
+DEBUG 2022-05-24 11:18:07,406 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC LIMIT 2; args=(); alias=default
+DEBUG 2022-05-24 11:18:07,407 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC LIMIT 2; args=(); alias=default
+DEBUG 2022-05-24 11:18:07,408 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC LIMIT 2; args=(); alias=default
+DEBUG 2022-05-24 11:18:07,409 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC LIMIT 2; args=(); alias=default
+DEBUG 2022-05-24 11:18:07,409 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC LIMIT 2; args=(); alias=default
+DEBUG 2022-05-24 11:18:07,411 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC LIMIT 2; args=(); alias=default
+DEBUG 2022-05-24 11:18:07,412 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC LIMIT 2; args=(); alias=default
+DEBUG 2022-05-24 11:18:07,413 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC LIMIT 2; args=(); alias=default
+DEBUG 2022-05-24 11:18:07,414 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC LIMIT 2; args=(); alias=default
+DEBUG 2022-05-24 11:18:07,415 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC LIMIT 2; args=(); alias=default
+DEBUG 2022-05-24 11:18:07,415 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC LIMIT 2; args=(); alias=default
+DEBUG 2022-05-24 11:18:07,416 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC LIMIT 2; args=(); alias=default
+DEBUG 2022-05-24 11:18:07,419 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC LIMIT 2; args=(); alias=default
+DEBUG 2022-05-24 11:18:07,420 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC LIMIT 2; args=(); alias=default
+DEBUG 2022-05-24 11:18:07,421 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC LIMIT 2; args=(); alias=default
+DEBUG 2022-05-24 11:18:07,422 utils (0.016) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC LIMIT 2; args=(); alias=default
+DEBUG 2022-05-24 11:18:07,422 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC LIMIT 2; args=(); alias=default
+DEBUG 2022-05-24 11:18:07,423 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC LIMIT 2; args=(); alias=default
+DEBUG 2022-05-24 11:18:07,425 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC LIMIT 2; args=(); alias=default
+DEBUG 2022-05-24 11:18:07,426 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC LIMIT 2; args=(); alias=default
+DEBUG 2022-05-24 11:18:07,427 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC LIMIT 2; args=(); alias=default
+DEBUG 2022-05-24 11:18:07,427 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC LIMIT 2; args=(); alias=default
+DEBUG 2022-05-24 11:18:07,428 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC LIMIT 2; args=(); alias=default
+DEBUG 2022-05-24 11:18:07,429 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC LIMIT 2; args=(); alias=default
+DEBUG 2022-05-24 11:18:07,430 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC LIMIT 2; args=(); alias=default
+DEBUG 2022-05-24 11:18:07,431 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC LIMIT 2; args=(); alias=default
+DEBUG 2022-05-24 11:18:07,432 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC LIMIT 2; args=(); alias=default
+DEBUG 2022-05-24 11:18:07,433 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC LIMIT 2; args=(); alias=default
+DEBUG 2022-05-24 11:18:07,433 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC LIMIT 2; args=(); alias=default
+DEBUG 2022-05-24 11:18:07,435 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC LIMIT 2; args=(); alias=default
+DEBUG 2022-05-24 11:18:07,436 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC LIMIT 2; args=(); alias=default
+ERROR 2022-05-24 11:18:07,510 log Internal Server Error: /cities/
+Traceback (most recent call last):
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\urls\base.py", line 71, in reverse
+    extra, resolver = resolver.namespace_dict[ns]
+KeyError: 'accounts'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\template\response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\template\backends\django.py", line 62, in render
+    return self.template.render(context)
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\template\base.py", line 958, in render_annotated
+    return self.render(context)
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\template\base.py", line 958, in render_annotated
+    return self.render(context)
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\template\defaulttags.py", line 322, in render
+    return nodelist.render(context)
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\template\base.py", line 958, in render_annotated
+    return self.render(context)
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\template\defaulttags.py", line 472, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\urls\base.py", line 82, in reverse
+    raise NoReverseMatch("%s is not a registered namespace" % key)
+django.urls.exceptions.NoReverseMatch: 'accounts' is not a registered namespace
+DEBUG 2022-05-24 11:18:18,949 utils (0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None; alias=default
+DEBUG 2022-05-24 11:18:18,953 utils (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=(); alias=default
+DEBUG 2022-05-24 11:21:54,978 utils (0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None; alias=default
+DEBUG 2022-05-24 11:21:54,985 utils (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=(); alias=default
+DEBUG 2022-05-24 11:21:56,627 utils (0.000) SELECT COUNT(*) AS "__count" FROM "cities_city"; args=(); alias=default
+DEBUG 2022-05-24 11:21:56,656 utils (0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2022-05-24 05:21:56.655884' AND "django_session"."session_key" = 'q0i5yl9m060rvxvswapxo5k8xraixgtf') LIMIT 21; args=('2022-05-24 05:21:56.655884', 'q0i5yl9m060rvxvswapxo5k8xraixgtf'); alias=default
+DEBUG 2022-05-24 11:21:56,658 utils (0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+DEBUG 2022-05-24 11:21:56,680 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC LIMIT 2; args=(); alias=default
+DEBUG 2022-05-24 11:21:56,681 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC LIMIT 2; args=(); alias=default
+DEBUG 2022-05-24 11:21:56,682 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC LIMIT 2; args=(); alias=default
+DEBUG 2022-05-24 11:21:56,682 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC LIMIT 2; args=(); alias=default
+DEBUG 2022-05-24 11:21:56,683 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC LIMIT 2; args=(); alias=default
+DEBUG 2022-05-24 11:21:56,684 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC LIMIT 2; args=(); alias=default
+DEBUG 2022-05-24 11:21:56,684 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC LIMIT 2; args=(); alias=default
+DEBUG 2022-05-24 11:21:56,685 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC LIMIT 2; args=(); alias=default
+DEBUG 2022-05-24 11:21:56,686 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC LIMIT 2; args=(); alias=default
+DEBUG 2022-05-24 11:21:56,686 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC LIMIT 2; args=(); alias=default
+DEBUG 2022-05-24 11:21:56,687 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC LIMIT 2; args=(); alias=default
+DEBUG 2022-05-24 11:21:56,688 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC LIMIT 2; args=(); alias=default
+DEBUG 2022-05-24 11:21:56,689 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC LIMIT 2; args=(); alias=default
+DEBUG 2022-05-24 11:21:56,689 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC LIMIT 2; args=(); alias=default
+DEBUG 2022-05-24 11:21:56,690 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC LIMIT 2; args=(); alias=default
+DEBUG 2022-05-24 11:21:56,690 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC LIMIT 2; args=(); alias=default
+DEBUG 2022-05-24 11:21:56,691 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC LIMIT 2; args=(); alias=default
+DEBUG 2022-05-24 11:21:56,692 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC LIMIT 2; args=(); alias=default
+DEBUG 2022-05-24 11:21:56,693 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC LIMIT 2; args=(); alias=default
+DEBUG 2022-05-24 11:21:56,693 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC LIMIT 2; args=(); alias=default
+DEBUG 2022-05-24 11:21:56,694 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC LIMIT 2; args=(); alias=default
+DEBUG 2022-05-24 11:21:56,695 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC LIMIT 2; args=(); alias=default
+DEBUG 2022-05-24 11:21:56,697 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC LIMIT 2; args=(); alias=default
+DEBUG 2022-05-24 11:21:56,698 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC LIMIT 2; args=(); alias=default
+DEBUG 2022-05-24 11:21:56,699 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC LIMIT 2; args=(); alias=default
+DEBUG 2022-05-24 11:21:56,700 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC LIMIT 2; args=(); alias=default
+DEBUG 2022-05-24 11:21:56,701 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC LIMIT 2; args=(); alias=default
+DEBUG 2022-05-24 11:21:56,701 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC LIMIT 2; args=(); alias=default
+DEBUG 2022-05-24 11:21:56,702 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC LIMIT 2; args=(); alias=default
+DEBUG 2022-05-24 11:21:56,703 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC LIMIT 2; args=(); alias=default
+DEBUG 2022-05-24 11:21:56,703 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC LIMIT 2; args=(); alias=default
+DEBUG 2022-05-24 11:21:56,704 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC LIMIT 2; args=(); alias=default
+DEBUG 2022-05-24 11:21:56,705 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC LIMIT 2; args=(); alias=default
+DEBUG 2022-05-24 11:21:56,705 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC LIMIT 2; args=(); alias=default
+DEBUG 2022-05-24 11:21:56,706 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC LIMIT 2; args=(); alias=default
+DEBUG 2022-05-24 11:21:56,707 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC LIMIT 2; args=(); alias=default
+ERROR 2022-05-24 11:21:56,776 log Internal Server Error: /cities/
+Traceback (most recent call last):
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\urls\base.py", line 71, in reverse
+    extra, resolver = resolver.namespace_dict[ns]
+KeyError: 'accounts'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\template\response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\template\backends\django.py", line 62, in render
+    return self.template.render(context)
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\template\base.py", line 958, in render_annotated
+    return self.render(context)
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\template\base.py", line 958, in render_annotated
+    return self.render(context)
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\template\defaulttags.py", line 322, in render
+    return nodelist.render(context)
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\template\base.py", line 958, in render_annotated
+    return self.render(context)
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\template\defaulttags.py", line 472, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\urls\base.py", line 82, in reverse
+    raise NoReverseMatch("%s is not a registered namespace" % key)
+django.urls.exceptions.NoReverseMatch: 'accounts' is not a registered namespace
+DEBUG 2022-05-24 11:22:53,454 utils (0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None; alias=default
+DEBUG 2022-05-24 11:22:53,458 utils (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=(); alias=default
+DEBUG 2022-05-24 11:29:49,712 utils (0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None; alias=default
+DEBUG 2022-05-24 11:29:49,716 utils (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=(); alias=default
+DEBUG 2022-05-24 11:29:51,287 utils (0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2022-05-24 05:29:51.283469' AND "django_session"."session_key" = 'q0i5yl9m060rvxvswapxo5k8xraixgtf') LIMIT 21; args=('2022-05-24 05:29:51.283469', 'q0i5yl9m060rvxvswapxo5k8xraixgtf'); alias=default
+DEBUG 2022-05-24 11:29:51,294 utils (0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+ERROR 2022-05-24 11:29:51,380 log Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\urls\base.py", line 71, in reverse
+    extra, resolver = resolver.namespace_dict[ns]
+KeyError: 'accounts'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ersultan\PycharmProjects\src\routes\views.py", line 18, in home
+    return render(request, 'routes/home.html', {'form': form})
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\template\backends\django.py", line 62, in render
+    return self.template.render(context)
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\template\base.py", line 958, in render_annotated
+    return self.render(context)
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\template\base.py", line 958, in render_annotated
+    return self.render(context)
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\template\defaulttags.py", line 322, in render
+    return nodelist.render(context)
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\template\base.py", line 958, in render_annotated
+    return self.render(context)
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\template\defaulttags.py", line 472, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\urls\base.py", line 82, in reverse
+    raise NoReverseMatch("%s is not a registered namespace" % key)
+django.urls.exceptions.NoReverseMatch: 'accounts' is not a registered namespace
+DEBUG 2022-05-24 11:34:37,719 utils (0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None; alias=default
+DEBUG 2022-05-24 11:34:37,783 utils (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=(); alias=default
+DEBUG 2022-05-24 11:34:41,049 utils (0.031) SELECT COUNT(*) AS "__count" FROM "cities_city"; args=(); alias=default
+DEBUG 2022-05-24 11:34:41,101 utils (0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2022-05-24 05:34:41.100171' AND "django_session"."session_key" = 'q0i5yl9m060rvxvswapxo5k8xraixgtf') LIMIT 21; args=('2022-05-24 05:34:41.100171', 'q0i5yl9m060rvxvswapxo5k8xraixgtf'); alias=default
+DEBUG 2022-05-24 11:34:41,103 utils (0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+DEBUG 2022-05-24 11:34:41,119 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC LIMIT 2; args=(); alias=default
+DEBUG 2022-05-24 11:34:46,308 utils (0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2022-05-24 05:34:46.304552' AND "django_session"."session_key" = 'q0i5yl9m060rvxvswapxo5k8xraixgtf') LIMIT 21; args=('2022-05-24 05:34:46.304552', 'q0i5yl9m060rvxvswapxo5k8xraixgtf'); alias=default
+DEBUG 2022-05-24 11:34:46,310 utils (0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+DEBUG 2022-05-24 11:34:46,319 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC; args=(); alias=default
+DEBUG 2022-05-24 11:34:46,329 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC; args=(); alias=default
+DEBUG 2022-05-24 11:34:46,336 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC; args=(); alias=default
+DEBUG 2022-05-24 11:34:47,942 utils (0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2022-05-24 05:34:47.940673' AND "django_session"."session_key" = 'q0i5yl9m060rvxvswapxo5k8xraixgtf') LIMIT 21; args=('2022-05-24 05:34:47.940673', 'q0i5yl9m060rvxvswapxo5k8xraixgtf'); alias=default
+DEBUG 2022-05-24 11:34:47,943 utils (0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+DEBUG 2022-05-24 11:34:47,952 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC; args=(); alias=default
+DEBUG 2022-05-24 11:34:47,964 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC; args=(); alias=default
+DEBUG 2022-05-24 11:34:47,970 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC; args=(); alias=default
+DEBUG 2022-05-24 11:34:48,261 utils (0.000) SELECT COUNT(*) AS "__count" FROM "routes_route"; args=(); alias=default
+DEBUG 2022-05-24 11:34:48,323 utils (0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2022-05-24 05:34:48.319701' AND "django_session"."session_key" = 'q0i5yl9m060rvxvswapxo5k8xraixgtf') LIMIT 21; args=('2022-05-24 05:34:48.319701', 'q0i5yl9m060rvxvswapxo5k8xraixgtf'); alias=default
+DEBUG 2022-05-24 11:34:48,325 utils (0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+DEBUG 2022-05-24 11:34:48,425 utils (0.109) SELECT "routes_route"."id", "routes_route"."name", "routes_route"."travel_times", "routes_route"."from_city_id", "routes_route"."to_city_id" FROM "routes_route" ORDER BY "routes_route"."travel_times" ASC LIMIT 3; args=(); alias=default
+DEBUG 2022-05-24 11:34:48,427 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 13 LIMIT 21; args=(13,); alias=default
+DEBUG 2022-05-24 11:34:48,427 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 12 LIMIT 21; args=(12,); alias=default
+DEBUG 2022-05-24 11:34:48,429 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 8 LIMIT 21; args=(8,); alias=default
+DEBUG 2022-05-24 11:34:48,430 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 1 LIMIT 21; args=(1,); alias=default
+DEBUG 2022-05-24 11:34:48,432 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 20 LIMIT 21; args=(20,); alias=default
+DEBUG 2022-05-24 11:34:48,433 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 1 LIMIT 21; args=(1,); alias=default
+DEBUG 2022-05-24 11:34:50,499 utils (0.016) SELECT COUNT(*) AS "__count" FROM "routes_route"; args=(); alias=default
+DEBUG 2022-05-24 11:34:50,508 utils (0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2022-05-24 05:34:50.507860' AND "django_session"."session_key" = 'q0i5yl9m060rvxvswapxo5k8xraixgtf') LIMIT 21; args=('2022-05-24 05:34:50.507860', 'q0i5yl9m060rvxvswapxo5k8xraixgtf'); alias=default
+DEBUG 2022-05-24 11:34:50,510 utils (0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+DEBUG 2022-05-24 11:34:50,511 utils (0.000) SELECT "routes_route"."id", "routes_route"."name", "routes_route"."travel_times", "routes_route"."from_city_id", "routes_route"."to_city_id" FROM "routes_route" ORDER BY "routes_route"."travel_times" ASC LIMIT 3; args=(); alias=default
+DEBUG 2022-05-24 11:34:50,512 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 13 LIMIT 21; args=(13,); alias=default
+DEBUG 2022-05-24 11:34:50,513 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 12 LIMIT 21; args=(12,); alias=default
+DEBUG 2022-05-24 11:34:50,514 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 8 LIMIT 21; args=(8,); alias=default
+DEBUG 2022-05-24 11:34:50,514 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 1 LIMIT 21; args=(1,); alias=default
+DEBUG 2022-05-24 11:34:50,515 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 20 LIMIT 21; args=(20,); alias=default
+DEBUG 2022-05-24 11:34:50,516 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 1 LIMIT 21; args=(1,); alias=default
+DEBUG 2022-05-24 11:34:53,378 utils (0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2022-05-24 05:34:53.375069' AND "django_session"."session_key" = 'q0i5yl9m060rvxvswapxo5k8xraixgtf') LIMIT 21; args=('2022-05-24 05:34:53.375069', 'q0i5yl9m060rvxvswapxo5k8xraixgtf'); alias=default
+DEBUG 2022-05-24 11:34:53,379 utils (0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+DEBUG 2022-05-24 11:35:02,418 utils (0.000) SELECT (1) AS "a" FROM "cities_city" WHERE "cities_city"."name" = 'train' LIMIT 1; args=('train',); alias=default
+DEBUG 2022-05-24 11:35:02,584 utils (0.172) INSERT INTO "cities_city" ("name") VALUES ('train'); args=['train']; alias=default
+DEBUG 2022-05-24 11:35:02,674 utils (0.000) SELECT COUNT(*) AS "__count" FROM "trains_train"; args=(); alias=default
+DEBUG 2022-05-24 11:35:02,703 utils (0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2022-05-24 05:35:02.702754' AND "django_session"."session_key" = 'q0i5yl9m060rvxvswapxo5k8xraixgtf') LIMIT 21; args=('2022-05-24 05:35:02.702754', 'q0i5yl9m060rvxvswapxo5k8xraixgtf'); alias=default
+DEBUG 2022-05-24 11:35:02,704 utils (0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+DEBUG 2022-05-24 11:35:02,707 utils (0.000) SELECT "trains_train"."id", "trains_train"."name", "trains_train"."travel_time", "trains_train"."from_city_id", "trains_train"."to_city_id" FROM "trains_train" ORDER BY "trains_train"."travel_time" ASC LIMIT 4; args=(); alias=default
+DEBUG 2022-05-24 11:35:02,709 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 13 LIMIT 21; args=(13,); alias=default
+DEBUG 2022-05-24 11:35:02,710 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 12 LIMIT 21; args=(12,); alias=default
+DEBUG 2022-05-24 11:35:02,712 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 2 LIMIT 21; args=(2,); alias=default
+DEBUG 2022-05-24 11:35:02,713 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 13 LIMIT 21; args=(13,); alias=default
+DEBUG 2022-05-24 11:35:02,714 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 17 LIMIT 21; args=(17,); alias=default
+DEBUG 2022-05-24 11:35:02,715 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 8 LIMIT 21; args=(8,); alias=default
+DEBUG 2022-05-24 11:35:02,717 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 16 LIMIT 21; args=(16,); alias=default
+DEBUG 2022-05-24 11:35:02,718 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 12 LIMIT 21; args=(12,); alias=default
+DEBUG 2022-05-24 11:35:13,655 utils (0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2022-05-24 05:35:13.653552' AND "django_session"."session_key" = 'q0i5yl9m060rvxvswapxo5k8xraixgtf') LIMIT 21; args=('2022-05-24 05:35:13.653552', 'q0i5yl9m060rvxvswapxo5k8xraixgtf'); alias=default
+DEBUG 2022-05-24 11:35:13,658 utils (0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+DEBUG 2022-05-24 11:35:16,156 utils (0.015) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2022-05-24 05:35:16.154736' AND "django_session"."session_key" = 'q0i5yl9m060rvxvswapxo5k8xraixgtf') LIMIT 21; args=('2022-05-24 05:35:16.154736', 'q0i5yl9m060rvxvswapxo5k8xraixgtf'); alias=default
+DEBUG 2022-05-24 11:35:16,159 utils (0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+DEBUG 2022-05-24 11:35:16,178 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC; args=(); alias=default
+DEBUG 2022-05-24 11:35:16,185 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC; args=(); alias=default
+DEBUG 2022-05-24 11:35:18,353 utils (0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2022-05-24 05:35:18.351895' AND "django_session"."session_key" = 'q0i5yl9m060rvxvswapxo5k8xraixgtf') LIMIT 21; args=('2022-05-24 05:35:18.351895', 'q0i5yl9m060rvxvswapxo5k8xraixgtf'); alias=default
+DEBUG 2022-05-24 11:35:18,354 utils (0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+DEBUG 2022-05-24 11:35:20,565 utils (0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2022-05-24 05:35:20.563057' AND "django_session"."session_key" = 'q0i5yl9m060rvxvswapxo5k8xraixgtf') LIMIT 21; args=('2022-05-24 05:35:20.563057', 'q0i5yl9m060rvxvswapxo5k8xraixgtf'); alias=default
+DEBUG 2022-05-24 11:35:20,566 utils (0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+DEBUG 2022-05-24 11:35:24,861 utils (0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2022-05-24 05:35:24.859373' AND "django_session"."session_key" = 'q0i5yl9m060rvxvswapxo5k8xraixgtf') LIMIT 21; args=('2022-05-24 05:35:24.859373', 'q0i5yl9m060rvxvswapxo5k8xraixgtf'); alias=default
+DEBUG 2022-05-24 11:35:24,863 utils (0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+DEBUG 2022-05-24 11:35:24,864 utils (0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE "django_session"."session_key" = 'q0i5yl9m060rvxvswapxo5k8xraixgtf' LIMIT 21; args=('q0i5yl9m060rvxvswapxo5k8xraixgtf',); alias=default
+DEBUG 2022-05-24 11:35:24,980 utils (0.110) DELETE FROM "django_session" WHERE "django_session"."session_key" IN ('q0i5yl9m060rvxvswapxo5k8xraixgtf'); args=('q0i5yl9m060rvxvswapxo5k8xraixgtf',); alias=default
+DEBUG 2022-05-24 11:35:25,003 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC; args=(); alias=default
+DEBUG 2022-05-24 11:35:25,010 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC; args=(); alias=default
+DEBUG 2022-05-24 11:35:25,016 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC; args=(); alias=default
+ERROR 2022-05-24 11:35:27,853 log Internal Server Error: /accounts/login/
+Traceback (most recent call last):
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ersultan\PycharmProjects\src\accounts\views.py", line 17, in login_view
+    return render(request, 'accounts/login.html', {'form': form})
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: accounts/login.html
+ERROR 2022-05-24 11:36:53,501 log Internal Server Error: /accounts/login/
+Traceback (most recent call last):
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ersultan\PycharmProjects\src\accounts\views.py", line 17, in login_view
+    return render(request, 'accounts/login.html', {'form': form})
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: accounts/login.html
+ERROR 2022-05-24 11:36:55,087 log Internal Server Error: /accounts/login/
+Traceback (most recent call last):
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ersultan\PycharmProjects\src\accounts\views.py", line 17, in login_view
+    return render(request, 'accounts/login.html', {'form': form})
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: accounts/login.html
+DEBUG 2022-05-24 11:37:01,955 utils (0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None; alias=default
+DEBUG 2022-05-24 11:37:01,959 utils (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=(); alias=default
+ERROR 2022-05-24 11:37:03,977 log Internal Server Error: /accounts/login/
+Traceback (most recent call last):
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ersultan\PycharmProjects\src\accounts\views.py", line 17, in login_view
+    return render(request, 'accounts/login.html', {'form': form})
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: accounts/login.html
+DEBUG 2022-05-24 11:37:07,533 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC; args=(); alias=default
+DEBUG 2022-05-24 11:37:07,540 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC; args=(); alias=default
+DEBUG 2022-05-24 11:37:07,548 utils (0.016) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC; args=(); alias=default
+ERROR 2022-05-24 11:37:09,093 log Internal Server Error: /accounts/register/
+Traceback (most recent call last):
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ersultan\PycharmProjects\src\accounts\views.py", line 36, in registration_view
+    return render(request, 'accounts/register.html', {'form': form})
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: accounts/register.html
+ERROR 2022-05-24 11:37:14,933 log Internal Server Error: /accounts/register/
+Traceback (most recent call last):
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ersultan\PycharmProjects\src\accounts\views.py", line 36, in registration_view
+    return render(request, 'accounts/register.html', {'form': form})
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: accounts/register.html
+ERROR 2022-05-24 11:37:18,160 log Internal Server Error: /accounts/login/
+Traceback (most recent call last):
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ersultan\PycharmProjects\src\accounts\views.py", line 17, in login_view
+    return render(request, 'accounts/login.html', {'form': form})
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: accounts/login.html
+ERROR 2022-05-24 11:38:29,003 log Internal Server Error: /accounts/login/
+Traceback (most recent call last):
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ersultan\PycharmProjects\src\accounts\views.py", line 17, in login_view
+    return render(request, 'accounts/login.html', {'form': form})
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: accounts/login.html
+DEBUG 2022-05-24 11:38:38,179 utils (0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None; alias=default
+DEBUG 2022-05-24 11:38:38,184 utils (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=(); alias=default
+DEBUG 2022-05-24 11:38:39,999 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC; args=(); alias=default
+DEBUG 2022-05-24 11:38:40,012 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC; args=(); alias=default
+DEBUG 2022-05-24 11:38:40,020 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC; args=(); alias=default
+ERROR 2022-05-24 11:38:42,023 log Internal Server Error: /accounts/register/
+Traceback (most recent call last):
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ersultan\PycharmProjects\src\accounts\views.py", line 36, in registration_view
+    return render(request, 'accounts/register.html', {'form': form})
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: accounts/register.html
+ERROR 2022-05-24 11:39:27,889 log Internal Server Error: /accounts/register/
+Traceback (most recent call last):
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ersultan\PycharmProjects\src\accounts\views.py", line 36, in registration_view
+    return render(request, 'accounts/register.html', {'form': form})
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: accounts/register.html
+ERROR 2022-05-24 11:40:07,776 log Internal Server Error: /accounts/register/
+Traceback (most recent call last):
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ersultan\PycharmProjects\src\accounts\views.py", line 36, in registration_view
+    return render(request, 'accounts/register.html', {'form': form})
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\ersultan\PycharmProjects\src\venv\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: accounts/register.html
+DEBUG 2022-05-24 12:13:53,798 utils (0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None; alias=default
+DEBUG 2022-05-24 12:13:53,818 utils (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=(); alias=default
+DEBUG 2022-05-24 12:14:06,476 utils (0.047) SELECT (1) AS "a" FROM "auth_user" WHERE "auth_user"."username" = 'ersultan' LIMIT 1; args=('ersultan',); alias=default
+DEBUG 2022-05-24 12:14:06,478 utils (0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."username" = 'ersultan' LIMIT 1; args=('ersultan',); alias=default
+DEBUG 2022-05-24 12:14:06,738 utils (0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."username" = 'ersultan' LIMIT 21; args=('ersultan',); alias=default
+DEBUG 2022-05-24 12:14:06,949 utils (0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."username" = 'ersultan' LIMIT 21; args=('ersultan',); alias=default
+DEBUG 2022-05-24 12:14:07,194 utils (0.000) SELECT (1) AS "a" FROM "django_session" WHERE "django_session"."session_key" = 'cuq13yhq1r2nmfy5rx4tc3ivwrpzbich' LIMIT 1; args=('cuq13yhq1r2nmfy5rx4tc3ivwrpzbich',); alias=default
+DEBUG 2022-05-24 12:14:07,197 utils (0.000) BEGIN; args=None; alias=default
+DEBUG 2022-05-24 12:14:07,204 utils (0.015) INSERT INTO "django_session" ("session_key", "session_data", "expire_date") SELECT 'cuq13yhq1r2nmfy5rx4tc3ivwrpzbich', 'e30:1ntNnz:14XNEyYxSSlyGtBAEVoIwrVYFcf8VB6q4sI6qvVdB54', '2022-06-07 06:14:07.197977'; args=('cuq13yhq1r2nmfy5rx4tc3ivwrpzbich', 'e30:1ntNnz:14XNEyYxSSlyGtBAEVoIwrVYFcf8VB6q4sI6qvVdB54', '2022-06-07 06:14:07.197977'); alias=default
+DEBUG 2022-05-24 12:14:07,364 utils (0.093) UPDATE "auth_user" SET "last_login" = '2022-05-24 06:14:07.267982' WHERE "auth_user"."id" = 1; args=('2022-05-24 06:14:07.267982', 1); alias=default
+DEBUG 2022-05-24 12:14:07,365 utils (0.000) BEGIN; args=None; alias=default
+DEBUG 2022-05-24 12:14:07,367 utils (0.000) UPDATE "django_session" SET "session_data" = '.eJxVjMsOwiAQRf-FtSGlMDxcuvcbyAwMUjU0Ke3K-O_apAvd3nPOfYmI21rj1nmJUxZnocTpdyNMD247yHdst1mmua3LRHJX5EG7vM6Zn5fD_Tuo2Ou3tskD4hhozJTIGyBtSHt22oO1VnEJaEPyA6MxQwkaHFkokEl5RlfE-wPo_Tga:1ntNnz:SzABkv8ex_woUGHwVWlM4-185o5DS8mJsD_UeHZtSOs', "expire_date" = '2022-06-07 06:14:07.364991' WHERE "django_session"."session_key" = 'cuq13yhq1r2nmfy5rx4tc3ivwrpzbich'; args=('.eJxVjMsOwiAQRf-FtSGlMDxcuvcbyAwMUjU0Ke3K-O_apAvd3nPOfYmI21rj1nmJUxZnocTpdyNMD247yHdst1mmua3LRHJX5EG7vM6Zn5fD_Tuo2Ou3tskD4hhozJTIGyBtSHt22oO1VnEJaEPyA6MxQwkaHFkokEl5RlfE-wPo_Tga:1ntNnz:SzABkv8ex_woUGHwVWlM4-185o5DS8mJsD_UeHZtSOs', '2022-06-07 06:14:07.364991', 'cuq13yhq1r2nmfy5rx4tc3ivwrpzbich'); alias=default
+DEBUG 2022-05-24 12:14:07,469 utils (0.016) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2022-05-24 06:14:07.459997' AND "django_session"."session_key" = 'cuq13yhq1r2nmfy5rx4tc3ivwrpzbich') LIMIT 21; args=('2022-05-24 06:14:07.459997', 'cuq13yhq1r2nmfy5rx4tc3ivwrpzbich'); alias=default
+DEBUG 2022-05-24 12:14:07,491 utils (0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+DEBUG 2022-05-24 12:14:07,502 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC; args=(); alias=default
+DEBUG 2022-05-24 12:14:07,512 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC; args=(); alias=default
+DEBUG 2022-05-24 12:14:07,521 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC; args=(); alias=default
+DEBUG 2022-05-24 12:14:13,313 utils (0.000) SELECT COUNT(*) AS "__count" FROM "cities_city"; args=(); alias=default
+DEBUG 2022-05-24 12:14:13,336 utils (0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2022-05-24 06:14:13.334425' AND "django_session"."session_key" = 'cuq13yhq1r2nmfy5rx4tc3ivwrpzbich') LIMIT 21; args=('2022-05-24 06:14:13.334425', 'cuq13yhq1r2nmfy5rx4tc3ivwrpzbich'); alias=default
+DEBUG 2022-05-24 12:14:13,339 utils (0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+DEBUG 2022-05-24 12:14:13,340 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC LIMIT 2; args=(); alias=default
+DEBUG 2022-05-24 12:14:13,942 utils (0.000) SELECT COUNT(*) AS "__count" FROM "trains_train"; args=(); alias=default
+DEBUG 2022-05-24 12:14:13,968 utils (0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2022-05-24 06:14:13.967471' AND "django_session"."session_key" = 'cuq13yhq1r2nmfy5rx4tc3ivwrpzbich') LIMIT 21; args=('2022-05-24 06:14:13.967471', 'cuq13yhq1r2nmfy5rx4tc3ivwrpzbich'); alias=default
+DEBUG 2022-05-24 12:14:13,971 utils (0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+DEBUG 2022-05-24 12:14:13,973 utils (0.000) SELECT "trains_train"."id", "trains_train"."name", "trains_train"."travel_time", "trains_train"."from_city_id", "trains_train"."to_city_id" FROM "trains_train" ORDER BY "trains_train"."travel_time" ASC LIMIT 4; args=(); alias=default
+DEBUG 2022-05-24 12:14:13,975 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 13 LIMIT 21; args=(13,); alias=default
+DEBUG 2022-05-24 12:14:13,976 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 12 LIMIT 21; args=(12,); alias=default
+DEBUG 2022-05-24 12:14:13,977 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 2 LIMIT 21; args=(2,); alias=default
+DEBUG 2022-05-24 12:14:13,978 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 13 LIMIT 21; args=(13,); alias=default
+DEBUG 2022-05-24 12:14:13,979 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 17 LIMIT 21; args=(17,); alias=default
+DEBUG 2022-05-24 12:14:13,980 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 8 LIMIT 21; args=(8,); alias=default
+DEBUG 2022-05-24 12:14:13,981 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 16 LIMIT 21; args=(16,); alias=default
+DEBUG 2022-05-24 12:14:13,981 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 12 LIMIT 21; args=(12,); alias=default
+DEBUG 2022-05-24 12:14:15,984 utils (0.015) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2022-05-24 06:14:15.982620' AND "django_session"."session_key" = 'cuq13yhq1r2nmfy5rx4tc3ivwrpzbich') LIMIT 21; args=('2022-05-24 06:14:15.982620', 'cuq13yhq1r2nmfy5rx4tc3ivwrpzbich'); alias=default
+DEBUG 2022-05-24 12:14:15,986 utils (0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+DEBUG 2022-05-24 12:14:15,988 utils (0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE "django_session"."session_key" = 'cuq13yhq1r2nmfy5rx4tc3ivwrpzbich' LIMIT 21; args=('cuq13yhq1r2nmfy5rx4tc3ivwrpzbich',); alias=default
+DEBUG 2022-05-24 12:14:17,254 utils (1.266) DELETE FROM "django_session" WHERE "django_session"."session_key" IN ('cuq13yhq1r2nmfy5rx4tc3ivwrpzbich'); args=('cuq13yhq1r2nmfy5rx4tc3ivwrpzbich',); alias=default
+DEBUG 2022-05-24 12:14:17,282 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC; args=(); alias=default
+DEBUG 2022-05-24 12:14:17,290 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC; args=(); alias=default
+DEBUG 2022-05-24 12:14:17,297 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC; args=(); alias=default
