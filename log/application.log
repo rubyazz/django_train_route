@@ -3093,3 +3093,43 @@ DEBUG 2022-05-24 12:14:17,254 utils (1.266) DELETE FROM "django_session" WHERE "
 DEBUG 2022-05-24 12:14:17,282 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC; args=(); alias=default
 DEBUG 2022-05-24 12:14:17,290 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC; args=(); alias=default
 DEBUG 2022-05-24 12:14:17,297 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC; args=(); alias=default
+DEBUG 2022-05-24 12:22:02,779 utils (0.000) SELECT COUNT(*) AS "__count" FROM "cities_city"; args=(); alias=default
+DEBUG 2022-05-24 12:22:02,785 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC LIMIT 2; args=(); alias=default
+DEBUG 2022-05-24 12:22:04,294 utils (0.000) SELECT COUNT(*) AS "__count" FROM "trains_train"; args=(); alias=default
+DEBUG 2022-05-24 12:22:04,300 utils (0.000) SELECT "trains_train"."id", "trains_train"."name", "trains_train"."travel_time", "trains_train"."from_city_id", "trains_train"."to_city_id" FROM "trains_train" ORDER BY "trains_train"."travel_time" ASC LIMIT 4; args=(); alias=default
+DEBUG 2022-05-24 12:22:04,301 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 13 LIMIT 21; args=(13,); alias=default
+DEBUG 2022-05-24 12:22:04,302 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 12 LIMIT 21; args=(12,); alias=default
+DEBUG 2022-05-24 12:22:04,302 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 2 LIMIT 21; args=(2,); alias=default
+DEBUG 2022-05-24 12:22:04,303 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 13 LIMIT 21; args=(13,); alias=default
+DEBUG 2022-05-24 12:22:04,305 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 17 LIMIT 21; args=(17,); alias=default
+DEBUG 2022-05-24 12:22:04,306 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 8 LIMIT 21; args=(8,); alias=default
+DEBUG 2022-05-24 12:22:04,307 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 16 LIMIT 21; args=(16,); alias=default
+DEBUG 2022-05-24 12:22:04,308 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 12 LIMIT 21; args=(12,); alias=default
+DEBUG 2022-05-24 12:22:04,893 utils (0.000) SELECT COUNT(*) AS "__count" FROM "routes_route"; args=(); alias=default
+DEBUG 2022-05-24 12:22:04,914 utils (0.000) SELECT "routes_route"."id", "routes_route"."name", "routes_route"."travel_times", "routes_route"."from_city_id", "routes_route"."to_city_id" FROM "routes_route" ORDER BY "routes_route"."travel_times" ASC LIMIT 3; args=(); alias=default
+DEBUG 2022-05-24 12:22:04,916 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 13 LIMIT 21; args=(13,); alias=default
+DEBUG 2022-05-24 12:22:04,917 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 12 LIMIT 21; args=(12,); alias=default
+DEBUG 2022-05-24 12:22:04,918 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 8 LIMIT 21; args=(8,); alias=default
+DEBUG 2022-05-24 12:22:04,918 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 1 LIMIT 21; args=(1,); alias=default
+DEBUG 2022-05-24 12:22:04,920 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 20 LIMIT 21; args=(20,); alias=default
+DEBUG 2022-05-24 12:22:04,921 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 1 LIMIT 21; args=(1,); alias=default
+DEBUG 2022-05-24 12:22:08,003 utils (0.000) SELECT COUNT(*) AS "__count" FROM "routes_route"; args=(); alias=default
+DEBUG 2022-05-24 12:22:08,008 utils (0.000) SELECT "routes_route"."id", "routes_route"."name", "routes_route"."travel_times", "routes_route"."from_city_id", "routes_route"."to_city_id" FROM "routes_route" ORDER BY "routes_route"."travel_times" ASC LIMIT 3; args=(); alias=default
+DEBUG 2022-05-24 12:22:08,009 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 13 LIMIT 21; args=(13,); alias=default
+DEBUG 2022-05-24 12:22:08,010 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 12 LIMIT 21; args=(12,); alias=default
+DEBUG 2022-05-24 12:22:08,011 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 8 LIMIT 21; args=(8,); alias=default
+DEBUG 2022-05-24 12:22:08,013 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 1 LIMIT 21; args=(1,); alias=default
+DEBUG 2022-05-24 12:22:08,014 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 20 LIMIT 21; args=(20,); alias=default
+DEBUG 2022-05-24 12:22:08,015 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 1 LIMIT 21; args=(1,); alias=default
+DEBUG 2022-05-24 12:22:08,556 utils (0.000) SELECT COUNT(*) AS "__count" FROM "trains_train"; args=(); alias=default
+DEBUG 2022-05-24 12:22:08,565 utils (0.000) SELECT "trains_train"."id", "trains_train"."name", "trains_train"."travel_time", "trains_train"."from_city_id", "trains_train"."to_city_id" FROM "trains_train" ORDER BY "trains_train"."travel_time" ASC LIMIT 4; args=(); alias=default
+DEBUG 2022-05-24 12:22:08,567 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 13 LIMIT 21; args=(13,); alias=default
+DEBUG 2022-05-24 12:22:08,568 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 12 LIMIT 21; args=(12,); alias=default
+DEBUG 2022-05-24 12:22:08,569 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 2 LIMIT 21; args=(2,); alias=default
+DEBUG 2022-05-24 12:22:08,570 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 13 LIMIT 21; args=(13,); alias=default
+DEBUG 2022-05-24 12:22:08,572 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 17 LIMIT 21; args=(17,); alias=default
+DEBUG 2022-05-24 12:22:08,573 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 8 LIMIT 21; args=(8,); alias=default
+DEBUG 2022-05-24 12:22:08,574 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 16 LIMIT 21; args=(16,); alias=default
+DEBUG 2022-05-24 12:22:08,575 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 12 LIMIT 21; args=(12,); alias=default
+DEBUG 2022-05-24 12:22:08,885 utils (0.000) SELECT COUNT(*) AS "__count" FROM "cities_city"; args=(); alias=default
+DEBUG 2022-05-24 12:22:08,892 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC LIMIT 2; args=(); alias=default
